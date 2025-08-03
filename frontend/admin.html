@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZENiX - Admin Panel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <header>
+    <h1>Admin Panel</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="demo.html">Demo</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </nav>
+  </header>
+
+  <main style="max-width: 700px; margin: 2rem auto;">
+    <button id="exportBtn" style="margin-bottom: 1rem; padding: 0.6rem 1rem; font-weight: bold;">Export Users CSV</button>
+    <table id="usersTable" border="1" style="width: 100%; border-collapse: collapse; text-align: left;">
+      <thead style="background-color: #001122; color: #00f5ff;">
+        <tr>
+          <th style="padding: 0.8rem;">Username</th>
+          <th style="padding: 0.8rem;">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Filled dynamically by script.js -->
+      </tbody>
+    </table>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

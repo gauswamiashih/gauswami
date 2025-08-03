@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZENiX - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <header>
+    <h1>Welcome to ZENiX</h1>
+    <p>Your AI-powered mood & weather assistant</p>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="features.html">Features</a>
+      <a href="demo.html">Demo</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+      <a href="signup.html">Signup</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mood-section">
+      <h2>Detect Your Mood</h2>
+      <button id="startRecording">Start Recording</button>
+      <p id="moodResult"></p>
+    </section>
+
+    <section class="weather-section">
+      <h2>Current Weather</h2>
+      <div id="weatherInfo">
+        <button id="fetchWeather">Fetch Weather</button>
+        <div id="weatherDetails"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZENiX</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

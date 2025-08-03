@@ -1,0 +1,5 @@
+Flask==2.2.2
+SpeechRecognition==3.8.1
+transformers==4.30.2
+torch==2.0.1
+emoji==2.2.0

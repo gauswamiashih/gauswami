@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZENiX - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <header>
+    <h1>Login</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="demo.html">Demo</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html" class="active">Login</a>
+      <a href="signup.html">Signup</a>
+    </nav>
+  </header>
+
+  <main style="max-width: 350px; margin: 2rem auto;">
+    <form id="loginForm" style="display:flex; flex-direction:column;">
+      <input type="text" name="username" placeholder="Username" required style="margin-bottom:1rem; padding:0.8rem; font-size:1rem;" />
+      <input type="password" name="password" placeholder="Password" required style="margin-bottom:1rem; padding:0.8rem; font-size:1rem;" />
+      <button type="submit" style="padding:0.8rem; font-weight:bold;">Login</button>
+    </form>
+    <p style="margin-top:1rem;">Don't have an account? <a href="signup.html">Signup here</a></p>
+    <p id="loginMessage" style="font-weight:bold; margin-top:1rem;"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
